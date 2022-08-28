@@ -1,6 +1,8 @@
-const h1 = document.querySelector(".hello h1");
+const loginInput = document.querySelector("#login-form input");
+const loginButton = document.querySelector("#login-form button");
 
-function handleTitleColor() {
-  h1.classList.toggle("active");
+function handleBtnClick() {
+  console.log(loginInput.value);
 }
-h1.addEventListener("click", handleTitleColor);
+
+loginButton.addEventListener("click", handleBtnClick);

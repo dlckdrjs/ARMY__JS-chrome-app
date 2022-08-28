@@ -1,9 +1,0 @@
-h1 {
-  color: blue;
-  transition: color 1s ease-in-out;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.active {
-  color: tomato;
-}
