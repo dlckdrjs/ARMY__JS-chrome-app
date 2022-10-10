@@ -1,8 +1,8 @@
-const images = ["0.jpg", "1.jpg", "2.jpg"];
+const img = ["0.jpg", "1.jpg", "2.jpg"];
 
-const chosenImage = images[Math.floor(Math.random() * images.length)];
+const randomImg = img[Math.floor(Math.random() * img.length)];
 
-const bgImage = document.createElement("img");
-bgImage.src = `img/${chosenImage}`;
+const getImg = document.createElement("img");
+getImg.src = `img/${randomImg}`;
 
-document.body.appendChild(bgImage);
+document.body.appendChild(getImg);
